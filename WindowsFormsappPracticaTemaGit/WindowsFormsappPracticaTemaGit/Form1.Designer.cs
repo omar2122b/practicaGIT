@@ -34,8 +34,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.numericUpDown = new System.Windows.Forms.NumericUpDown();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown)).BeginInit();
+            this.aluNota = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // aluNombre
@@ -91,19 +90,19 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Lista de alumnos";
             // 
-            // numericUpDown
+            // aluNota
             // 
-            this.numericUpDown.Location = new System.Drawing.Point(461, 83);
-            this.numericUpDown.Name = "numericUpDown";
-            this.numericUpDown.Size = new System.Drawing.Size(100, 22);
-            this.numericUpDown.TabIndex = 7;
+            this.aluNota.Location = new System.Drawing.Point(461, 82);
+            this.aluNota.Name = "aluNota";
+            this.aluNota.Size = new System.Drawing.Size(100, 22);
+            this.aluNota.TabIndex = 7;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 387);
-            this.Controls.Add(this.numericUpDown);
+            this.Controls.Add(this.aluNota);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -112,7 +111,6 @@
             this.Controls.Add(this.aluNombre);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -126,7 +124,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.NumericUpDown numericUpDown;
+        private System.Windows.Forms.TextBox aluNota;
     }
 }
 
